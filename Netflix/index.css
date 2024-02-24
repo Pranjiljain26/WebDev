@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.back {
+    border: none;
+    height: 700px;
+    width: 100%;
+    background-image: url(./Image/back-final.jpeg);
+}
+
+.head {
+    border: none;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    height: 80px;
+}
+
+.login {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    border: none;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2,
+h1 {
+    color: white;
+}
+
+.data input {
+    width: 50%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.812);
+    border-radius: 10px;
+}
+
+.data button {
+    border: none;
+    width: 30%;
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+/* main */
+.main {
+    border-bottom: solid 5px gray;
+    border-top: solid 10px gray;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .m1,
+.main .m2 {
+    border: none;
+    height: 200px;
+    width: 30%;
+    padding: 50px;
+}
+
+.m1 img,
+.m2 img {
+    height: 200px;
+    width: 100%;
+}
+
+/* main2 */
+.faq {
+    border: none;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.faq button {
+    border: none;
+    margin-top: 10px;
+    height: 60px;
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgb(67, 64, 64);
+}
+
+.faq button:hover {
+    background-color: rgb(128, 121, 121);
+}
+
+.faq input {
+    width: 30%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.812);
+    border-radius: 10px;
+}
+
+#b1 {
+    border: none;
+    width: 20%;
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+/* footer */
+.footer {
+    border-bottom: solid 5px gray;
+    border-top: solid 10px gray;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .content {
+    border: none;
+    height: 100%;
+    width: 70%;
+}
+
+.footer .content h3,
+.footer .content a {
+    color: white;
+}
+
+.footer .content-inner {
+    border: none;
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+}
+
+.b1 {
+    border: solid 2px grey;
+    height: 30px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.b2 {
+    border: none;
+    height: 30px;
+    width: 15%;
+    margin-left: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    color: white;
+}

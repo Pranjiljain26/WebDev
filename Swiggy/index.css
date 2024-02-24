@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    border: solid 1px white;
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    background-color: white;
+}
+
+.header img {
+    margin-left: 10%;
+    width: 10%;
+}
+
+.header .location {
+    border: none;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .location a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(88, 88, 93);
+}
+
+.header input {
+    width: 35%;
+    background-color: rgba(204, 198, 198, 0.447);
+    margin-top: 5px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+
+.header .login img {
+    height: 100%;
+    width: 100%;
+}
+
+/* main */
+.order-food,
+.order-food img {
+    border: none;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.main😎-box {
+    border: none;
+    height: 3500px;
+    width: 80%;
+    margin-left: 10%;
+}
+.main😎-box .box-img{
+    border: none;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main😎-box .box-img img{
+    height: 200px;
+    width: 15%;
+}
+/*  -------- */
+.restaurants{
+    border: none;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.restaurants img{
+    border: none;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.restaurants img:hover{
+    scale: 0.9;
+}
+/* ============= */
+.filters button{
+    height: 40px ;
+    width: 12%;
+    border-radius: 50px;
+    background-color: white;
+    border: solid 1px gray;
+}
+.dishes{
+    border:none;
+    height: 750px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+.dishes figure img{
+    border: none;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.box:hover{
+    scale: 1.1;
+}
+.b1{
+    margin-left: 35%;
+    height: 50px;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px rgb(169, 159, 159);
+}
+/* food culture */
+.reasons{
+    border: solid 1px rgb(169, 159, 159);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+.reasons h2{
+    color: rgb(169, 159, 159);
+    margin: 20px;
+}
+.reasons p{
+    margin: 20px;
+}
+
+.locations{
+    border: none;
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.locations button{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid 2px rgb(169, 159, 159);
+    background-color: white;
+    margin: 20px;
+}
+/* footer */
+.footer-1{
+    border: none;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(194, 194, 211);
+}
+.footer-1 img{
+    height: 60px;
+    width: 15%;
+    border-radius: 20px;
+}
+.footer-2{
+    border: solid 1px black;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+
+}
+.footer-2 .box1{
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 300px;
+    width: 80%;
+    background-color:black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.footer-2 .box1 .footer-cont{
+    color:white;
+}
+.footer-cont a{
+    text-decoration: none;
+    color: rgb(194, 194, 211);
+}
+#dd-menu{
+    color: white;
+    background-color: black;
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
